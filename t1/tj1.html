@@ -1,15 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <script src="t1.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lämpötilan muunnos</title>
 </head>
 <body>
-  <h1>moi</h1>
+    <h1>Lämpötilan muunnos</h1>
+    <label for="celsius">Anna lämpötila Celsius-asteina:</label>
+    <input type="number" id="celsius" name="celsius">
+    <button onclick="TemperatureConverter()">Muunna</button>
 
+    <h2>Tulokset:</h2>
+    <p id="fahrenheit"></p>
+    <p id="kelvin"></p>
 
-<script src="t1.js"></script>
+    <script src="t1.js" defer></script>
 </body>
 </html>
+
